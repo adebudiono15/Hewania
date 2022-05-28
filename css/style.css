@@ -1,0 +1,464 @@
+/* ======================================================================= */
+/* GLOBAL */
+body{
+    background-image: url("../assets/images/background.jpg");
+    background-size: cover;
+    background-repeat: inherit;
+}
+.pages{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow-y: scroll;
+    transform: translate(-50%,-50%);
+    max-width: 480px;
+    padding-bottom: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none !important;
+  }
+  .form-control:focus {
+    box-shadow: none !important;
+    border: 1px solid #fff;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+      border-color: none !important;
+    box-shadow: none !important;
+  }
+  .carousel .carousel-indicators button {
+    width: 10px;
+   height: 10px;
+   border-radius: 100%;
+ }
+ .carousel-indicators .active{
+    background-color: #ED6436 !important;
+ }
+ .carousel-indicators{
+    bottom: -60px;
+  }
+ .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 4px;
+    margin-left: 4px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #D9D9D9;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.textTitle{
+  font-family: 'Nunito';
+  font-weight: 800;
+  font-size: 20px;
+  margin: 0;
+}
+/* LAST GLOBAL */
+/* ======================================================================= */
+
+  /* Bottom Navigator */
+  .natigationBottom{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+  .colBottomNavigator{
+    justify-content: space-around;
+    background-color: #fff;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.04);
+    max-width: 480px;
+    display: flex;
+    padding: 6px;
+  }
+  .btnMenu{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+.linkMenu, .linkMenu:hover{
+    justify-content: center;
+    text-align:center;
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    color: #444444;
+    font-size: 10px;
+    margin:0;
+}
+.cartShop{
+  position: fixed;
+   left: 0;
+   bottom: 70px;
+   width: 100%;
+    align-items: center;
+}
+.colBottomShop{
+  justify-content: space-around;
+    max-width: 480px;
+    display: flex;
+    padding: 6px;
+}
+.linkShop{
+  margin-right: -280px;
+  width: 60px;
+  height: 60px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  text-decoration: none;
+}
+.logoCart{
+  margin-top: 15px;
+  margin-left: 15px !important;
+}
+.badgeCustomeShop{
+  margin-top: -35px;
+  margin-left: 40px !important;
+  background-color: #ED6436;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 50%;
+  font-weight: bold;
+  width: 14px;
+  height: 14px;
+  text-align: center;
+  font-family: 'Nunito';
+}
+  /* Last Bottom Navigator */
+
+  /* ########################################################################### */
+  /* Home */
+  /* ########################################################################### */
+
+  /* Header */
+  .rowHeader{
+      background-color: #790C00;
+      color: #fff;
+      height:100px;
+      place-items: center;
+  }
+  .textHeaderTop{
+      font-family: 'Nunito Sans';
+      font-weight: 400;
+      font-size: 12px;
+      margin: 0;
+  }
+  .textHeaderBottom{
+    font-family: 'Nunito Sans';
+    font-weight: 800;
+    font-size: 14px;
+    margin: 0;
+  }
+  .colRightHeader{
+      text-align: end;
+      position: relative;
+  }
+  .badgeCustome{
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      top:-10px;
+      right: 0;
+      height: 17px;
+      width: 17px;
+      background-color: #ED6436;
+      border-radius:20px ;
+      font-family: 'Nunito Sans';
+      font-weight: 600;
+  }
+  .btnChat{
+      background-color: transparent !important;
+      border: none !important;
+      color: #fff;
+      font-size: 11px;
+  }
+
+  .rowSearch{
+      justify-content: center;
+      margin-top: -18px;
+  }
+  .formSpanSearch{
+      background-color: #fff;
+      border:  1px solid #fff;
+  }
+  .formSearch{
+      background-color: #fff;
+      border: 1px solid #fff;
+      font-family: 'Nunito Sans';
+      font-size: 14px;
+      font-weight: 400;
+  }
+  /* Last Header */
+
+  /* Categories */
+ 
+  .textCategories{
+        font-family: 'Nunito Sans';
+        font-weight: 400;
+        font-size: 12px;
+        margin: 0;
+  }
+  /* Last Categories */
+
+  /* Flash Sale */
+  .rowFlashSale{
+      background-color: #ED6436;
+      margin-top: 20px;
+        padding: 10px;
+  }
+  .textFlashSale{
+        font-family: 'Nunito';
+        font-weight: 800;
+        font-size: 15px;
+        color: #fff;
+        margin: 0;
+  }
+  .TimeFlashSale{
+      margin-left: 2px;
+      margin-right: 2px;
+      background-color: #fff;
+      padding: 2px;
+      border-radius: 4px;
+      color: #ED6436;
+      font-weight: 800;
+  }
+  .textReadMoreFlashSale{
+        font-family: 'Nunito Sans';
+        font-weight: 700;
+        font-size: 12px;
+        margin: 0;
+        color: #fff;
+        text-align: end;
+  }
+  .wrapper{
+    margin-top: 20px;
+    max-height: 280px;
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .wrapper::-webkit-scrollbar {
+    width: none !important;
+    background: transparent !important; 
+  }
+  .wrapper .item{
+    min-width: 180px;
+    height: 260px;
+    text-align: center;
+    background-color: #fff;
+    margin-right: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.07);
+    margin: 10px;
+  }
+  .textNameFlashSale{
+        font-family: 'Nunito Sans';
+        font-size: 14px;
+        margin: 0;
+        color: #444444;
+        text-align: start;
+        padding: 10px;
+        margin: 0;
+  }
+  .textPriceFlashSale{
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    color: #282828;
+    font-size: 12px;
+  }
+  .btnCardFlashSale{
+    border: 2px solid #ED6436;
+    background-color: #fff;
+    color: #ED6436;
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 12px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding:2px ;
+    width: 80%;
+  }
+  /* Last Flash Sale */
+
+  /* Popular */
+  .wrapper .itemPopular{
+    min-width: 180px;
+    height: 100%;
+    text-align: center;
+    background-color: #fff;
+    margin-right: 10px !important;
+    border-radius: 8px;
+  }
+  .textNamePolular{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80%;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    text-align: start;
+    padding: 10px;
+}
+  /* Last Popular */
+
+  /* Shop */
+  .wrapper .itemShop{
+    min-width: 180px;
+    height: 100%;
+    text-align: center;
+    background-color: #fff;
+    margin-right: 10px !important;
+    border-radius: 8px;
+  }
+  .cardShop{
+    position: relative;
+    height:200px;
+    width: 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+  }
+  .bannerShop{
+    left:0;
+    width: 150px;
+    height: 75px;
+    position: absolute;
+  }
+  .logoShop{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius:100%;
+    top: 35%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+  }
+  .textNameShop{
+    position: absolute;
+    width: 100%;
+    top: 80%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .textNamePin{
+    position: absolute;
+    width: 100%;
+    top: 90%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #444444;
+  }
+  /* Last Shop */
+  /* ########################################################################### */
+  /* Last Home */
+    /* ########################################################################### */
+
+    /* Profile Shop */
+    .btnBack{
+      background-color: transparent !important;
+      border: none !important;
+      margin-top: 4px;
+    }
+    .textTitleShop{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      color: #282828;
+      margin: 0;
+    }
+    .textSubTitleShop{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      color: #444444;
+    }
+    .textTitleOpen{
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      color: #444444;
+      margin: 0;
+    }
+
+    .textSubTitleOpen{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      color: #444444;
+    }
+    .borderWork{
+      border-left: 1px solid #d6d6d6;
+      border-right: 1px solid #d6d6d6;
+      height: 40px !important;
+    }
+    .textDescShop{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      color: #444444;
+    }
+    .textMore{
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      color: #C5010F;
+      cursor: pointer;
+    }
+    .btnMap{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      border: 1px solid #C5010F;
+      border-radius: 5px;
+      color: #C5010F;
+      background-color: #fff;
+      width: 164px;
+      height: 36px;
+    }
+    .btnChatShop{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      border: 1px solid #C5010F;
+      border-radius: 5px;
+      color: #fff;
+      background-color: #C5010F;
+      width: 164px;
+      height: 36px;
+    }
+    /* Last Profile Shop */
