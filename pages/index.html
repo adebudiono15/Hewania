@@ -20,36 +20,38 @@
     <div class="pages">
         <div class="container">
             <!--  -->
-            <div class="row rowHeader">
-               <div class="col">
-                    <div class="row" style="place-items: center;">
-                        <div class="col-2">
-                            <img src="../assets/icons/iconPinMap.png" width="20" height="20" alt="Hewania" class="logo">
+            <div class="headerSticky">
+                <div class="row rowHeader">
+                   <div class="col">
+                        <div class="row" style="place-items: center;">
+                            <div class="col-2">
+                                <img src="../assets/icons/iconPinMap.png" width="20" height="20" alt="Hewania" class="logo">
+                            </div>
+                            <div class="col">
+                                <p class="textHeaderTop">Kirim Ke</p>
+                                <p class="textHeaderBottom">Rumah</p>
+                            </div>
                         </div>
-                        <div class="col">
-                            <p class="textHeaderTop">Kirim Ke</p>
-                            <p class="textHeaderBottom">Rumah</p>
+                   </div>
+                   <div class="col colRightHeader">
+                    <button type="button" class="btnChat position-relative">
+                        <img src="../assets/icons/iconChat.png" width="24" height="24" alt="Hewania">
+                        <!-- Notif -->
+                        <div class="badgeCustome">
+                            <p>10</p>
                         </div>
+                    </button>
+                   </div>
+                </div>
+                <div class="row rowSearch">
+                    <div class="col-11">
+                        <div class="input-group mb-3" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+                            <span class="input-group-text formSpanSearch">
+                                <img src="../assets/icons/iconSearch.png" width="19" height="19" alt="Hewania">
+                            </span>
+                            <input type="text" class="form-control formSearch" placeholder="Cari Produk">
+                          </div>
                     </div>
-               </div>
-               <div class="col colRightHeader">
-                <button type="button" class="btnChat position-relative">
-                    <img src="../assets/icons/iconChat.png" width="24" height="24" alt="Hewania">
-                    <!-- Notif -->
-                    <div class="badgeCustome">
-                        <p>10</p>
-                    </div>
-                </button>
-               </div>
-            </div>
-            <div class="row rowSearch">
-                <div class="col-10">
-                    <div class="input-group mb-3" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
-                        <span class="input-group-text formSpanSearch">
-                            <img src="../assets/icons/iconSearch.png" width="19" height="19" alt="Hewania">
-                        </span>
-                        <input type="text" class="form-control formSearch" placeholder="Cari Produk">
-                      </div>
                 </div>
             </div>
             <!--  -->
@@ -130,7 +132,7 @@
                         <span class="TimeFlashSale">19</span>
                         <span class="TimeFlashSale">51</span>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4" style="display: flex;">
                         <p class="textReadMoreFlashSale">Lihat Semua</p>
                     </div>
                 </div>

@@ -145,6 +145,19 @@ body{
   /* ########################################################################### */
 
   /* Header */
+  .headerSticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  }
+  .rowSticky{
+    position: -webkit-sticky !important;; 
+    position: sticky !important;
+    top: 0;
+    z-index: 99;
+    background-color: #fff;
+  }
   .rowHeader{
       background-color: #790C00;
       color: #fff;
@@ -164,8 +177,10 @@ body{
     margin: 0;
   }
   .colRightHeader{
-      text-align: end;
-      position: relative;
+      margin-right: 30px;
+  }
+  .colFormSearch{
+    width: 200px !important;
   }
   .badgeCustome{
       padding: 0;
@@ -223,7 +238,7 @@ body{
   .textFlashSale{
         font-family: 'Nunito';
         font-weight: 800;
-        font-size: 15px;
+        font-size: 20px;
         color: #fff;
         margin: 0;
   }
@@ -237,12 +252,14 @@ body{
       font-weight: 800;
   }
   .textReadMoreFlashSale{
+      position: absolute;
         font-family: 'Nunito Sans';
         font-weight: 700;
         font-size: 12px;
-        margin: 0;
         color: #fff;
-        text-align: end;
+        cursor: pointer;
+        display: flex;
+        margin-left: 35px;
   }
   .wrapper{
     margin-top: 20px;
@@ -279,11 +296,13 @@ body{
     font-weight: 700;
     color: #282828;
     font-size: 12px;
+    padding-left: 10px;
+    text-align: left;
   }
   .btnCardFlashSale{
-    border: 2px solid #ED6436;
+    border: 2px solid #C5010F;
     background-color: #fff;
-    color: #ED6436;
+    color: #C5010F;
     font-family: 'Nunito';
     font-weight: 800;
     font-size: 12px;
@@ -319,11 +338,10 @@ body{
 
   /* Shop */
   .wrapper .itemShop{
-    min-width: 180px;
+    min-width: 160px;
     height: 100%;
     text-align: center;
     background-color: #fff;
-    margin-right: 10px !important;
     border-radius: 8px;
   }
   .cardShop{
@@ -360,6 +378,7 @@ body{
     font-weight: 800;
     font-size: 14px;
     line-height: 19px;
+    color: #282828;
   }
   .textNamePin{
     position: absolute;
@@ -384,6 +403,7 @@ body{
       background-color: transparent !important;
       border: none !important;
       margin-top: 4px;
+      margin-left: -20px !important;
     }
     .textTitleShop{
       font-family: 'Nunito Sans';
