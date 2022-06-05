@@ -545,3 +545,140 @@ body{
       font-size: 14px;
       color: #282828;
     }
+
+    /* ########################################################################### */
+    /* ########################################################################### */
+    /* Auth  */
+    /* ########################################################################### */
+    /* Home */
+    .textHeaderTopAuth{
+      font-family: 'Nunito';
+      font-weight: 400;
+      font-size: 12px;
+      margin: 0;
+      padding-left: 10px;
+  }
+  .textHeaderBottomAuth{
+    font-family: 'Nunito Sans';
+    font-weight: 800;
+    font-size: 14px;
+    margin: 0;
+    padding-left: 10px;
+  }
+    /* Last Home */
+
+    /* login */
+    .logoAuth{
+      margin-top: 40px;
+    }
+    .titleAuthLogin{
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      color: #282828;
+      margin-top:28px;
+    }
+    .labelFormAuth{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      color: #898989;
+    }
+    .formAuth{
+      border-top: none !important;
+      border-left: none !important;
+      border-right: none !important;
+      border-bottom: #F8F8F8 1px solid;
+    }
+    .btnLoginAuth{
+      background: #C5010F;
+      border: 1px solid #C5010F;
+      border-radius : 5px;
+      width: 100%;
+      height: 36px;
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      color: #ffff;
+      margin-top: 36px;
+    }
+    .textGap{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      color: #898989;
+      margin-top: 36px;
+      margin-bottom: 36px;
+    }
+    .btnSocialMediaAuth{
+      background-color: transparent !important;
+      height: 36px;
+      border: 1px solid #444444;
+      border-radius: 5px;
+      width: 100%;
+    }
+    .textSocialMediaAuth{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      color: #444444;
+      margin-left: 5px;
+    }
+    .textBottomAuth{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      color: #444444;
+    }
+    .textLinkBottomAuth{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      color: #C5010F;
+      text-decoration: none;
+    }
+    /* Last login */
+
+    /* OTP */
+    .chevLeftAuth{
+      cursor: pointer;
+    }
+    .textTitleOTP{
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      color: #282828;
+      margin-top: 30px;
+    }
+    .subTextTitleOTP{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      color: #444444;
+      margin-top: 12px;
+    }
+    .textWrongOTP{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: #444444;
+      width: 250.74px;
+      background: #FFF7F4;
+      padding: 15px;
+    }
+    /* Last OTP */
+    /* ########################################################################### */
+    /* Last Auth  */
+    /* ########################################################################### */
+    /* ########################################################################### */
