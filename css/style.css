@@ -394,8 +394,106 @@ body{
     color: #444444;
   }
   /* Last Shop */
+
+  /* Search */
+  .textTitleHeaderSearch{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #282828;
+  }
+  .textRecomendationSearch{
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #282828;
+    margin-bottom: 5px;
+  }
+  .imgSearchResult{
+    border:1px solid #F8F8F8;
+    box-sizing: border-box;
+  }
+  .nameProductSearchResult{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #282828;
+    margin: 0;
+  }
+
+  .priceProductSearchResult{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #444444;
+    margin-top: 5px;
+  }
+  /* Last Search */
+
+  /* Pet Shop */
+  .textTitleFindPetShop{
+    margin-top: 120px;
+    margin-bottom: 65px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #282828;
+  }
+  .imgChecklist{
+    margin-top: 120px;
+  }
+  .textTitleFindPetShopChecklist{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #282828;
+    margin-top: 30px;
+  }
+  /* Last Pet Shop */
   /* ########################################################################### */
   /* Last Home */
+    /* ########################################################################### */
+    
+    /* ########################################################################### */
+    /* Notification */
+    .textHeaderNotification{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      color: #282828;
+      margin-top: 8px;
+      margin-bottom: 20px;
+    }
+    .textOrderTitle{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      color: #282828;
+      margin: 0;
+    }
+    .textOrderSubTitle{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      color: #444444;
+      margin-top: 10px;
+    }
+    .textTimeOrder{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      color: #282828;
+    }
+    /* Last Notification */
     /* ########################################################################### */
 
     /* Profile Shop */
