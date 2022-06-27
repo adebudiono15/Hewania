@@ -71,11 +71,32 @@ body{
   /* Bottom Navigator */
   .natigationBottom{
     position: fixed;
-    left: 20px;
+    left: 0;
     bottom: 0;
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
+}
+.natigationBottomAddress{
+  position: -webkit-sticky !important;; 
+  width: 100%;
+  bottom: 0;
+  padding: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnAddress{
+  background: #fff;
+  border: 2px solid #C5010F;
+  border-radius : 5px;
+  width: 100%;
+  height: 36px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #C5010F;
+  margin-top: 36px;
 }
   .colBottomNavigator{
     justify-content: space-around;
@@ -83,7 +104,25 @@ body{
     box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.04);
     max-width: 480px;
     display: flex;
-    padding: 6px;
+    padding: 10px;
+  }
+
+  .natigationBottomChat{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+  .colBottomNavigatorChat{
+    justify-content: space-around;
+    background-color: #fff;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.04);
+    max-width: 480px;
+    display: flex;
+    padding: 10px;
+    position: relative;
   }
   .btnMenu{
     cursor: pointer;
@@ -453,6 +492,127 @@ body{
     font-size: 18px;
     color: #282828;
     margin-top: 30px;
+  }
+  .colStrip{
+    border-left: 5px solid #ED6436;
+    border-radius: 5px 0px 0px 5px;
+  }
+  .colNonStrip{
+    border-radius: 5px 0px 0px 5px;
+  }
+  .rowPromo{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    position: relative;
+  }
+  .imgChecklistPromo{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+  }
+  .imgTrash{
+  }
+  .textEditAddress{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #C5010F;
+  }
+  .textEditKurir{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #C5010F;
+  }
+  .textPromoTitle{
+    margin: 0;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #282828;
+    padding-top: 10px;
+  }
+  .textLacakTitle{
+    margin: 0;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #282828;
+    padding-top: 10px;
+  }
+  .textLacakSubTitle{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 12px;
+    color: #444444;
+  }
+  .textPromoSubTitle{
+    margin: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444444;
+    padding-bottom: 10px;
+  }
+  .headerCard{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444444;
+  }
+  .DescPromo{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #282828;
+  }
+  .textPromoContent{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444444;
+  }
+  .textPeriodTime{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #282828;
+  }
+  .textPeriod{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #444444;
+  }
+  .textHeaderAlamat{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444444;
+  }
+  .textFlag{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #444444;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   /* Last Pet Shop */
   /* ########################################################################### */
@@ -829,7 +989,6 @@ body{
       color: #444444;
     }
     .cardPet{
-      /* width: 200px; */
       padding-top: 20px;
       padding-bottom: 20px;
       background: #FFFFFF;
@@ -941,3 +1100,96 @@ body{
       color: #C5010F;
     }
     /* Last Shop */
+    /* ########################################################################### */
+    /* ########################################################################### */
+    /* Chat */
+    .cardChat{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background: #FFFFFF;
+    }
+    .cardChatDetail{
+      margin-left: 20px;
+      padding: 5px;
+      background: #FFFFFF;
+      border-radius: 5px;
+    }
+    .cardChatRight{
+      margin-right: 20px;
+      padding: 5px;
+      background: #FFF7F4;
+      border-radius: 5px;
+    }
+    .textChatTitle{
+      font-family: 'Nunito';
+      font-weight: 700;
+      font-size: 14px;
+      color: #282828;
+      margin: 0;
+    }
+    .textChatSubTitle{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      color: #444444;
+      margin: 0;
+    }
+    .textTimeChat{
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      color: #ED6436;
+      margin: 0;
+    }
+    .textBadge{
+      float: right !important;
+      background-color: #ED6436;
+      width: 20px;
+      height: 20px;
+      border-radius: 20px;
+      font-weight: 400;
+      font-size: 12px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+   .textChatDetail{
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #444444;
+    }
+    .textTimeChatDetail{
+      font-family: 'Nunito';
+      font-weight: 400;
+      font-size: 10px;
+      color: #898989;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: 10px;
+    }
+    .rowChat{
+      max-width: 200px;
+      position: relative;
+    }
+    .iconPlusChat{
+      position: relative;
+      right: 40px;
+      top: 8px;
+    }
+    .iconSendChat{
+      position: relative;
+      right: 10px;
+      top: 8px;
+    }
+    .formChat{
+      height: 40px;
+      left: 16.1px;
+      background: #F7F7F7;
+      border-radius: 5px;
+    }
+    /* Last Chat */
